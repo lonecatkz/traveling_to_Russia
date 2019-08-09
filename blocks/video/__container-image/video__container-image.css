@@ -1,0 +1,22 @@
+.video__container-image {
+    box-shadow: 0 0 0 294px rgba(0, 0, 0, 0.5) inset;
+    width: 100%;
+    max-width: 583px;
+    height: auto;
+    border-radius: 5px;
+    background: url("../../../images/video/kamchatka.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.video__container-image:last-of-type {
+    background: url("../../../images/video/observatory.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 850px) {
+    .video__container-image {
+        max-height: 200px;
+    }
+}

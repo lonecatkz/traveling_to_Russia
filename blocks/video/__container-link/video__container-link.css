@@ -1,0 +1,18 @@
+.video__container-link {
+    margin: 0;
+    padding-bottom: 16%;
+    max-width: 41px;
+    height: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .video__container-link {
+        padding-bottom: 10.5%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .video__container-link {
+        padding-bottom: 0;
+    }
+}

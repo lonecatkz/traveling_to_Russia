@@ -1,0 +1,14 @@
+.emblem__arms {
+    margin: 4.8em 0 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11em, auto));
+    grid-gap:  2.5em;
+    justify-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    .emblem__arms {
+        grid-gap: 3.5em;
+    }
+}

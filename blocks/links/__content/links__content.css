@@ -1,0 +1,9 @@
+@import url("./_cover/links__content_cover.css");
+
+.links__content {
+    text-decoration: none;
+}
+
+.links__content:hover {
+    text-decoration: underline;
+}

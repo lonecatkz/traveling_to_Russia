@@ -1,0 +1,15 @@
+@import url("./__image/header__image.css");
+@import url("./__lang/header__lang.css");
+
+.header {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        height: 42px;
+    }
+}

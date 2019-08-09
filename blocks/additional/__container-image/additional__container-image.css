@@ -1,0 +1,28 @@
+.additional__container-image {
+    margin-top: 3.8em;
+    max-width: 284px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    box-shadow: 0 0 0 170px rgba(0, 0, 0, 0.5) inset;
+    background: url("../../../images/add/novoross.png") no-repeat;
+    background-size: cover;
+}
+
+.additional__container-image:nth-child(2) {
+    background: url("../../../images/add/shihan.png") no-repeat;
+    background-size: cover;
+}
+
+.additional__container-image:nth-child(3) {
+    background: url("../../../images/add/cherep.png") no-repeat;
+    background-size: cover;
+}
+
+.additional__container-image:nth-child(4) {
+    background: url("../../../images/add/nikola.png") no-repeat;
+    background-size: cover;
+}

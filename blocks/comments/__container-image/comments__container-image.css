@@ -1,0 +1,11 @@
+.comments__container-image {
+    max-width: 97px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 850px) {
+    .comments__container-image {
+        order: 1;
+    }
+}

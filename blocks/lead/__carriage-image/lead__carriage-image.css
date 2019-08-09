@@ -1,0 +1,13 @@
+.lead__carriage-image {
+    width: 100%;
+    height: auto;
+    max-width: 984px;
+    min-height: 211px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 950px) {
+    .lead__carriage-image {
+        min-height: 554px;
+    }
+}

@@ -1,0 +1,24 @@
+@import url("./__title/video__title.css");
+@import url("./__subtitle/video__subtitle.css");
+@import url("./__container/video__container.css");
+@import url("./__item/video__item.css");
+@import url("./__iframe/video__iframe.css");
+@import url("./__container-image/video__container-image.css");
+@import url("./__container-link/video__container-link.css");
+@import url("./__container-duration/video__container-duration.css");
+@import url("./__container-title/video__container-title.css");
+@import url("./__container-subtitle/video__container-subtitle.css");
+
+.video {
+    width: 100%;
+    margin: 1.4em auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    .video {
+        margin-top: 1.8em;
+    }
+}

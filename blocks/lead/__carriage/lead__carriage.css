@@ -1,0 +1,16 @@
+.lead__carriage {
+    align-content: flex-end;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 850px) {
+    .lead__carriage {
+        margin-top: 67px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .lead__carriage {
+        margin-top: 34px;
+    }
+}

@@ -1,0 +1,28 @@
+.additional__subtitle {
+    max-width: 640px;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin: 1.3em 0 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .additional__subtitle {
+        margin-top: 1.2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .additional__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 1.4em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .additional__subtitle {
+        margin-top: 1em;
+    }
+}

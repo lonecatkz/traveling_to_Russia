@@ -1,0 +1,14 @@
+.emblem__title {
+    margin: 0;
+    max-width: 403px;
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+    .emblem__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

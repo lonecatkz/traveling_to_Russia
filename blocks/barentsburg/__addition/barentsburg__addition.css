@@ -1,0 +1,10 @@
+.barentsburg__addition {
+    margin-top: 2.4em;
+    display: flex;
+}
+
+@media screen and (max-width: 750px) {
+    .barentsburg__addition {
+        flex-direction: column;
+    }
+}

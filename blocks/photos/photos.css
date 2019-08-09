@@ -1,0 +1,22 @@
+@import url("./__item/photos__item.css");
+
+.photos {
+    width: 100%;
+    margin: 5.3em auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-gap: 1em;
+}
+
+@media screen and (max-width: 450px) {
+    .photos {
+        margin-top: 3.5em;
+        grid-row-gap: 1.3em;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .photos {
+        grid-row-gap: 0.6em;
+    }
+}

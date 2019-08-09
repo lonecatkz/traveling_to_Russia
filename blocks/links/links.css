@@ -1,0 +1,14 @@
+@import url("./__content/links__content.css");
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    /* color: #e05e3d; */
+    color: #fff;
+}
+
+a:hover {
+    opacity: 0.5;
+}

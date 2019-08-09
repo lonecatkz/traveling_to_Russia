@@ -1,0 +1,10 @@
+@import url("./__title/emblem__title.css");
+@import url("./__arms/emblem__arms.css");
+@import url("./__item/emlem__item.css");
+@import url("./__item-image/emblem__item-image.css");
+@import url("./__item-text/emblem__item-text.css");
+
+.emblem {
+    width: 100%;
+    margin: 5em auto 0;
+}
